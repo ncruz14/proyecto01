@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>AgroTienda - Productos del Campo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">AgroTienda</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon bg-light"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#quienes">Quiénes Somos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contáctenos</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- INICIO -->
+<section id="inicio" class="hero-section">
+    <div class="overlay">
+      <div class="content text-center">
+        <h1 class="display-4">Bienvenidos a <strong>AgroTienda</strong></h1>
+        <p class="lead">El campo es vida, cultiva con nosotros.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- PRODUCTOS -->
+<section id="productos" class="container">
+  <h2 class="text-center section-title">Nuestros Productos</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card product-card">
+        <img src="/img/maize-4490754_1280.jpg" class="card-img-top" alt="Semillas">
+        <div class="card-body">
+          <h5 class="card-title">Semillas de Maíz</h5>
+          <p class="card-text">Semillas seleccionadas para obtener cosechas más productivas y resistentes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card product-card">
+        <img src="/img/fertilizante.webp" class="card-img-top" alt="Fertilizante">
+        <div class="card-body">
+          <h5 class="card-title">Fertilizante Orgánico</h5>
+          <p class="card-text">Ideal para enriquecer el suelo sin dañar el ecosistema natural.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card product-card">
+        <img src="/img/herramientas.jpg" class="card-img-top" alt="Herramientas">
+        <div class="card-body">
+          <h5 class="card-title">Herramientas de Campo</h5>
+          <p class="card-text">Palas, machetes, rastrillos y todo lo que necesitas para tu labor diaria.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card product-card">
+        <img src="/img/insecticidas.avif" class="card-img-top" alt="Insecticidas">
+        <div class="card-body">
+          <h5 class="card-title">Insecticidas Ecológicos</h5>
+          <p class="card-text">Protege tus cultivos con fórmulas amigables con el medio ambiente.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card product-card">
+        <img src="/img/abono.jpg" class="card-img-top" alt="Abono">
+        <div class="card-body">
+          <h5 class="card-title">Abono Compuesto</h5>
+          <p class="card-text">Aumenta la fertilidad del suelo y mejora el rendimiento agrícola.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="productos.html" class="btn btn-success mt-3">Ver todos los productos</a>
+</section>
+
+<!-- QUIÉNES SOMOS -->
+<section id="quienes" class="bg-light mt-5 p-5">
+  <div class="container">
+    <h2 class="text-center section-title">Quiénes Somos</h2>
+    <p>En AgroTienda somos una empresa colombiana con más de 10 años de experiencia apoyando a los campesinos del país. Nuestro compromiso es brindar productos agropecuarios de alta calidad, accesibles para todos los trabajadores del campo.</p>
+    <p>Nuestra misión es fortalecer el desarrollo rural mediante el acceso a insumos confiables, sostenibles y económicos. Creemos en el poder del campo como motor del progreso, y trabajamos día a día para ofrecer soluciones innovadoras y responsables con el medio ambiente.</p>
+    <p>Contamos con un equipo de profesionales capacitados para asesorar a nuestros clientes y acompañarlos en el crecimiento de sus cultivos.</p>
+  </div>
+</section>
+
+<!-- CONTÁCTENOS -->
+<section id="contacto" class="container p-5">
+  <h2 class="text-center section-title">Contáctenos</h2>
+  <form id="form-contacto" class="col-md-8 mx-auto">
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="nombre" required>
+    </div>
+    <div class="mb-3">
+      <label for="correo" class="form-label">Correo Electrónico</label>
+      <input type="email" class="form-control" id="correo" required>
+    </div>
+    <div class="mb-3">
+      <label for="mensaje" class="form-label">Mensaje</label>
+      <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Enviar</button>
+    <div id="respuesta" class="mt-3 text-success"></div>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center">
+  <div class="container">
+    <p>&copy; 2025 AgroTienda. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/js/script.js"></script>
+</body>
+</html>
