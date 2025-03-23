@@ -6,7 +6,7 @@
 
 El proyecto consiste en un sitio web responsive y funcional desarrollado con HTML, CSS, JavaScript y Bootstrap. Incluye una página principal tipo *landing page* que presenta la marca y su propósito, así como una página adicional donde se listan todos los productos disponibles, con opción de búsqueda y filtrado dinámico.
 
-## 🔧 Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - HTML5
 - CSS3
@@ -48,6 +48,3 @@ El proyecto consiste en un sitio web responsive y funcional desarrollado con HTM
 
 Este proyecto fue desarrollado con fines educativos, aplicando los conocimientos adquiridos en diseño web, interacción con el DOM, lógica de filtros y estructuración de sitios tipo vitrina para emprendimientos del sector rural.
 
----
-
-¡Gracias por visitar AgroTienda!
